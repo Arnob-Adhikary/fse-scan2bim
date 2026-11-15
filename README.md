@@ -201,17 +201,7 @@ Raising the image size from 640 to 1024 px improved mask mAP50-95 from 0.47 to 0
 | Exit-sign direction, baseline | ResNet-18, 192×384, label-swapping flip | 95.2% |
 
 ### Case study: hotel, 137 scan stations (preliminary)
-These figures are from the first run, before the ground truth was reviewed by a second annotator. They will change.
-
-| | Precision | Recall | F1 |
-|---|---|---|---|
-| All detections | 0.53 | 0.88 | 0.66 |
-| Scanner carrying case excluded* | 0.59 | 0.88 | 0.70 |
-
-- Median 3D centre error: **1.0 cm**. Mean IoU of matched masks: 0.71.
-- Attributes: extinguisher agent 4/4 correct, exit-sign direction 5/6.
-
-\* The scanner's carrying case was moved along with the scanner to every station. It looks almost identical to a first-aid kit, and it caused 17 false positives.
+End-to-end evaluation on a 137-station case-study scan is in progress; results will be reported in the paper.
 
 ---
 
