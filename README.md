@@ -113,6 +113,12 @@ pip install -r requirements.txt
 
 Tested on Windows with Python 3.14.4, ultralytics 8.4.171 and torch 2.11 (CUDA 12.8). Training ran on a Kaggle T4 GPU, and inference on a RTX 3050 4 GB laptop GPU. `ffmpeg` must be on the PATH for frame extraction.
 
+## Model weights
+
+The trained weights will be released together with the paper. Until then, they are available from the author on request.
+
+`detection/pano_inference.py` needs: the YOLO26s-seg weights (`--yolo`), `thresholds.json` (`--thresholds`), the extinguisher probe `extinguisher_dinov2s_448.joblib` (`--probe`) and the exit-sign model `exit_sign_yolo26n_cls.json` with its `.pt` file(s) (`--exit-model`). The DINOv2 backbone downloads from Hugging Face on first use.
+
 ## Usage
 
 Every script describes its inputs at the top of the file and lists all options with `-h`. The paths below are examples.
