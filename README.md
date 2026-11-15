@@ -1,7 +1,7 @@
 # FSE-Scan2BIM: Fire-Safety Equipment from Laser-Scanner Panoramas to 3D Instances
 
 
-This repository holds the code for **Stage 1** of an ongoing research project, *Semantic Enrichment of As-Built BIM with Fire Safety Equipment: Linking Laser-Scan Detections to Inspection Schedules through Space Topology* (manuscript in preparation).
+This repository holds the code for **Stage 1** of an ongoing research project, *Automated Semantic Enrichment of As-Built BIM with Fire Safety Equipment: Linking Laser-Scan Detections to Inspection Schedules through Space Topology* (manuscript in preparation).
 
 As-built BIM models made from laser scans have good geometry but almost no asset information. Small fire-safety assets such as extinguishers, exit signs, smoke detectors and call points are often missing, or are modelled only as generic shapes with no type or properties. This code detects these assets in the 360° panoramas that a terrestrial laser scanner records at each station. It then lifts the detections into the point cloud as 3D object instances with attributes (extinguisher agent type, exit-sign arrow direction) and evaluates them against a 3D ground truth.
 
