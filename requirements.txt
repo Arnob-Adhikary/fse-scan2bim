@@ -1,0 +1,19 @@
+# Stage-1 pipeline. Install torch/torchvision first with the CUDA build that matches your GPU:
+#   https://pytorch.org/get-started/locally/
+# ffmpeg must be on PATH for imagery/extract_and_filter_frames_batch.py.
+numpy
+scipy
+scikit-learn
+matplotlib
+pillow
+opencv-python
+open3d
+pye57
+pyquaternion
+pyyaml
+joblib
+ImageHash
+torch
+torchvision
+transformers
+ultralytics==8.4.171

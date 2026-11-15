@@ -1,0 +1,44 @@
+# --- Project data: never commit ---
+data/
+datasets/
+*.e57
+*.ply
+*.las
+*.laz
+*.pcd
+*.ifc
+*.rvt
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.insv
+*.npz
+location_map.csv
+schedules/
+
+# Keep the framework figure
+!docs/*.svg
+
+# --- Models and run outputs ---
+*.pt
+*.pth
+*.onnx
+runs/
+seg_result/
+settings.json
+wandb/
+
+# --- Python and environment ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="190mm" height="101.60mm" viewBox="0 0 539.0 288.00" font-family="Arial, Helvetica, 'Liberation Sans', sans-serif" xmlns:c2pa="http://c2pa.org/manifest">
+<title>Fig. 1. Overview of the proposed framework</title>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5.2" markerHeight="5.2" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0.5 L10 5 L0 9.5 Z" fill="#4a4a4a"/></marker></defs>
+<rect x="0" y="0" width="539.0" height="288.00" fill="#ffffff"/>
+<rect x="95.50" y="2.00" width="346.00" height="99.00" rx="4" fill="#eaf0f6" stroke="#8aa0b8" stroke-width="0.6"/>
+<rect x="95.50" y="187.00" width="346.00" height="99.00" rx="4" fill="#f5efe4" stroke="#b9a07a" stroke-width="0.6"/>
+<text x="101.50" y="11.00" font-size="8.0" fill="#2f4a68" font-weight="bold" text-anchor="start">Stage 1 – Scan-based asset identification (Section 3.2)</text>
+<text x="101.50" y="280.00" font-size="8.0" fill="#5e4521" font-weight="bold" text-anchor="start">Stage 2 – Schedule-based enrichment (Section 3.3)</text>
+<text x="0.50" y="11.00" font-size="8.0" fill="#1a1a1a" font-weight="bold" text-anchor="start">Inputs</text>
+<text x="449.50" y="11.00" font-size="8.0" fill="#1a1a1a" font-weight="bold" text-anchor="start">Output</text>
+<path d="M 88.50 56.00 L 101.50 56.00" fill="none" stroke="#4a4a4a" stroke-width="0.7" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path d="M 88.50 232.00 L 101.50 232.00" fill="none" stroke="#4a4a4a" stroke-width="0.7" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path d="M 176.50 56.00 L 187.50 56.00" fill="none" stroke="#4a4a4a" stroke-width="0.7" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path d="M 176.50 232.00 L 187.50 232.00" fill="none" stroke="#4a4a4a" stroke-width="0.7" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path d="M 262.50 56.00 L 273.50 56.00" fill="none" stroke="#4a4a4a" stroke-width="0.7" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path d="M 262.50 232.00 L 273.50 232.00" fill="none" stroke="#4a4a4a" stroke-width="0.7" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path d="M 348.50 56.00 L 359.50 56.00" fill="none" stroke="#4a4a4a" stroke-width="0.7" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path d="M 348.50 232.00 L 359.50 232.00" fill="none" stroke="#4a4a4a" stroke-width="0.7" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path d="M 434.50 232.00 L 448.50 232.00" fill="none" stroke="#4a4a4a" stroke-width="0.9" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path d="M 76.18 92.00 L 76.18 108.00 L 311.50 108.00 L 311.50 93.00" fill="none" stroke="#4a4a4a" stroke-width="0.7" stroke-linejoin="round" marker-end="url(#ah)"/>
+<text x="104.50" y="116.50" font-size="6.5" fill="#3d3d3d" font-style="italic" text-anchor="start">registered point cloud</text>
+<path d="M 14.50 92.00 L 14.50 119.00" fill="none" stroke="#4a4a4a" stroke-width="0.7" stroke-linejoin="round" stroke-dasharray="2 1.6"/>
+<text x="18.50" y="103.70" font-size="6.5" fill="#3d3d3d" font-style="italic" text-anchor="start">same</text>
+<text x="18.50" y="111.70" font-size="6.5" fill="#3d3d3d" font-style="italic" text-anchor="start">coordinate frame</text>
+<path d="M 88.50 147.00 L 385.17 147.00 L 385.17 93.00" fill="none" stroke="#1a1a1a" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ah)"/>
+<path d="M 225.50 147.00 L 225.50 195.00" fill="none" stroke="#1a1a1a" stroke-width="1.3" stroke-linejoin="round" marker-end="url(#ah)"/>
+<circle cx="225.50" cy="147.00" r="1.9" fill="#1a1a1a"/>
+<text x="231.50" y="143.50" font-size="6.5" fill="#1a1a1a" font-style="italic" text-anchor="start">IfcSpace graph: spaces, room identifiers, adjacency</text>
+<path d="M 409.83 92.00 L 409.83 173.00 L 311.50 173.00 L 311.50 195.00" fill="none" stroke="#4a4a4a" stroke-width="0.9" stroke-linejoin="round" marker-end="url(#ah)"/>
+<text x="405.83" y="157.00" font-size="6.5" fill="#3d3d3d" font-style="italic" text-anchor="end">classified elements</text>
+<text x="405.83" y="165.00" font-size="6.5" fill="#3d3d3d" font-style="italic" text-anchor="end">with IfcSpace</text>
+<rect x="0.50" y="20.00" width="88.00" height="72.00" rx="2.5" fill="#f2f2f2" stroke="#4a4a4a" stroke-width="0.6"/>
+<text x="44.50" y="39.55" font-size="7.5" fill="#1a1a1a" font-weight="bold" text-anchor="middle">Terrestrial laser scan</text>
+<text x="44.50" y="49.95" font-size="7.0" fill="#3d3d3d" text-anchor="middle">registered point cloud;</text>
+<text x="44.50" y="58.35" font-size="7.0" fill="#3d3d3d" text-anchor="middle">equirectangular</text>
+<text x="44.50" y="66.75" font-size="7.0" fill="#3d3d3d" text-anchor="middle">panorama and pose per</text>
+<text x="44.50" y="75.15" font-size="7.0" fill="#3d3d3d" text-anchor="middle">station</text>
+<rect x="0.50" y="119.00" width="88.00" height="56.00" rx="2.5" fill="#f2f2f2" stroke="#4a4a4a" stroke-width="0.6"/>
+<text x="44.50" y="130.55" font-size="7.5" fill="#1a1a1a" font-weight="bold" text-anchor="middle">As-built IFC model</text>
+<text x="44.50" y="140.95" font-size="7.0" fill="#3d3d3d" text-anchor="middle">architectural elements,</text>
+<text x="44.50" y="149.35" font-size="7.0" fill="#3d3d3d" text-anchor="middle">IfcSpaces with room IDs;</text>
+<text x="44.50" y="157.75" font-size="7.0" fill="#3d3d3d" text-anchor="middle">fire-safety assets as</text>
+<text x="44.50" y="166.15" font-size="7.0" fill="#3d3d3d" text-anchor="middle">generic elements</text>
+<rect x="0.50" y="196.00" width="88.00" height="72.00" rx="2.5" fill="#f2f2f2" stroke="#4a4a4a" stroke-width="0.6"/>
+<text x="44.50" y="215.25" font-size="7.5" fill="#1a1a1a" font-weight="bold" text-anchor="middle">Inspection</text>
+<text x="44.50" y="224.25" font-size="7.5" fill="#1a1a1a" font-weight="bold" text-anchor="middle">documents</text>
+<text x="44.50" y="234.65" font-size="7.0" fill="#3d3d3d" text-anchor="middle">contractor-specific</text>
+<text x="44.50" y="243.05" font-size="7.0" fill="#3d3d3d" text-anchor="middle">layouts; assets located</text>
+<text x="44.50" y="251.45" font-size="7.0" fill="#3d3d3d" text-anchor="middle">only in free text</text>
+<rect x="102.50" y="20.00" width="74.00" height="72.00" rx="2.5" fill="#ffffff" stroke="#4a4a4a" stroke-width="0.6"/>
+<text x="139.50" y="39.25" font-size="7.5" fill="#1a1a1a" font-weight="bold" text-anchor="middle">Panorama</text>
+<text x="139.50" y="48.25" font-size="7.5" fill="#1a1a1a" font-weight="bold" text-anchor="middle">decomposition</text>
+<text x="139.50" y="58.65" font-size="7.0" fill="#3d3d3d" text-anchor="middle">overlapping</text>
+<text x="139.50" y="67.05" font-size="7.0" fill="#3d3d3d" text-anchor="middle">perspective faces</text>
+<text x="139.50" y="75.45" font-size="7.0" fill="#3d3d3d" text-anchor="middle">per station</text>
+<rect x="188.50" y="20.00" width="74.00" height="72.00" rx="2.5" fill="#ffffff" stroke="#4a4a4a" stroke-width="0.6"/>
+<text x="225.50" y="34.75" font-size="7.5" fill="#1a1a1a" font-weight="bold" text-anchor="middle">Segmentation</text>
+<text x="225.50" y="43.75" font-size="7.5" fill="#1a1a1a" font-weight="bold" text-anchor="middle">and attribute</text>
+<text x="225.50" y="52.75" font-size="7.5" fill="#1a1a1a" font-weight="bold" text-anchor="middle">classification</text>
+<text x="225.50" y="63.15" font-size="7.0" fill="#3d3d3d" text-anchor="middle">assets per face;</text>
+<text x="225.50" y="71.55" font-size="7.0" fill="#3d3d3d" text-anchor="middle">attributes on</text>
+<text x="225.50" y="79.95" font-size="7.0" fill="#3d3d3d" text-anchor="middle">detected crops</text>
+<rect x="274.50" y="20.00" width="74.00" height="72.00" rx="2.5" fill="#ffffff" stroke="#4a4a4a" stroke-width="0.6"/>
+<text x="311.50" y="34.75" font-size="7.5" fill="#1a1a1a" font-weight="bold" text-anchor="middle">Lifting and</text>
+<text x="311.50" y="43.75" font-size="7.5" fill="#1a1a1a" font-weight="bold" text-anchor="middle">multi-station</text>
+<text x="311.50" y="52.75" font-size="7.5" fill="#1a1a1a" font-weight="bold" text-anchor="middle">fusion</text>
+<text x="311.50" y="63.15" font-size="7.0" fill="#3d3d3d" text-anchor="middle">masks into the point</text>
+<text x="311.50" y="71.55" font-size="7.0" fill="#3d3d3d" text-anchor="middle">cloud, fused into 3D</text>
+<text x="311.50" y="79.95" font-size="7.0" fill="#3d3d3d" text-anchor="middle">instances</text>
+<rect x="360.50" y="20.00" width="74.00" height="72.00" rx="2.5" fill="#ffffff" stroke="#4a4a4a" stroke-width="0.6"/>
+<text x="397.50" y="30.55" font-size="7.5" fill="#1a1a1a" font-weight="bold" text-anchor="middle">Matching to</text>
+<text x="397.50" y="39.55" font-size="7.5" fill="#1a1a1a" font-weight="bold" text-anchor="middle">model elements</text>
+<text x="397.50" y="48.55" font-size="7.5" fill="#1a1a1a" font-weight="bold" text-anchor="middle">and spaces</text>
+<text x="397.50" y="58.95" font-size="7.0" fill="#3d3d3d" text-anchor="middle">3D instances</text>
+<text x="397.50" y="67.35" font-size="7.0" fill="#3d3d3d" text-anchor="middle">matched to generic</text>
+<text x="397.50" y="75.75" font-size="7.0" fill="#3d3d3d" text-anchor="middle">elements and their</text>
+<text x="397.50" y="84.15" font-size="7.0" fill="#3d3d3d" text-anchor="middle">IfcSpace</text>
+<rect x="102.50" y="196.00" width="74.00" height="72.00" rx="2.5" fill="#ffffff" stroke="#4a4a4a" stroke-width="0.6"/>
+<text x="139.50" y="223.95" font-size="7.5" fill="#1a1a1a" font-weight="bold" text-anchor="middle">Record extraction</text>
+<text x="139.50" y="234.35" font-size="7.0" fill="#3d3d3d" text-anchor="middle">LLM with a fixed</text>
+<text x="139.50" y="242.75" font-size="7.0" fill="#3d3d3d" text-anchor="middle">output schema</text>
+<rect x="188.50" y="196.00" width="74.00" height="72.00" rx="2.5" fill="#ffffff" stroke="#4a4a4a" stroke-width="0.6"/>
+<text x="225.50" y="219.45" font-size="7.5" fill="#1a1a1a" font-weight="bold" text-anchor="middle">Location</text>
+<text x="225.50" y="228.45" font-size="7.5" fill="#1a1a1a" font-weight="bold" text-anchor="middle">grounding</text>
+<text x="225.50" y="238.85" font-size="7.0" fill="#3d3d3d" text-anchor="middle">location text to</text>
+<text x="225.50" y="247.25" font-size="7.0" fill="#3d3d3d" text-anchor="middle">candidate IfcSpaces</text>
+<rect x="274.50" y="196.00" width="74.00" height="72.00" rx="2.5" fill="#ffffff" stroke="#4a4a4a" stroke-width="0.6"/>
+<text x="311.50" y="215.25" font-size="7.5" fill="#1a1a1a" font-weight="bold" text-anchor="middle">Record–instance</text>
+<text x="311.50" y="224.25" font-size="7.5" fill="#1a1a1a" font-weight="bold" text-anchor="middle">association</text>
+<text x="311.50" y="234.65" font-size="7.0" fill="#3d3d3d" text-anchor="middle">space membership,</text>
+<text x="311.50" y="243.05" font-size="7.0" fill="#3d3d3d" text-anchor="middle">adjacency and</text>
+<text x="311.50" y="251.45" font-size="7.0" fill="#3d3d3d" text-anchor="middle">attributes</text>
+<rect x="360.50" y="196.00" width="74.00" height="72.00" rx="2.5" fill="#ffffff" stroke="#4a4a4a" stroke-width="0.6"/>
+<text x="397.50" y="215.25" font-size="7.5" fill="#1a1a1a" font-weight="bold" text-anchor="middle">Audit and IFC</text>
+<text x="397.50" y="224.25" font-size="7.5" fill="#1a1a1a" font-weight="bold" text-anchor="middle">write-back</text>
+<text x="397.50" y="234.65" font-size="7.0" fill="#3d3d3d" text-anchor="middle">outcomes audited;</text>
+<text x="397.50" y="243.05" font-size="7.0" fill="#3d3d3d" text-anchor="middle">linked data written</text>
+<text x="397.50" y="251.45" font-size="7.0" fill="#3d3d3d" text-anchor="middle">to the model</text>
+<rect x="449.50" y="20.00" width="89.00" height="248.00" rx="3" fill="#26323d" stroke="#26323d" stroke-width="0.6"/>
+<text x="455.50" y="70.20" font-size="8.5" fill="#ffffff" font-weight="bold" text-anchor="start">Enriched IFC</text>
+<text x="455.50" y="80.40" font-size="8.5" fill="#ffffff" font-weight="bold" text-anchor="start">model</text>
+<rect x="455.50" y="90.00" width="3" height="3" fill="#c9d6e2"/>
+<text x="462.50" y="94.60" font-size="7.0" fill="#e8edf2" text-anchor="start">Fire-safety assets as</text>
+<text x="462.50" y="103.00" font-size="7.0" fill="#e8edf2" text-anchor="start">generic elements</text>
+<text x="462.50" y="111.40" font-size="7.0" fill="#e8edf2" text-anchor="start">assigned their IFC</text>
+<text x="462.50" y="119.80" font-size="7.0" fill="#e8edf2" text-anchor="start">entity and</text>
+<text x="462.50" y="128.20" font-size="7.0" fill="#e8edf2" text-anchor="start">PredefinedType</text>
+<rect x="455.50" y="136.00" width="3" height="3" fill="#c9d6e2"/>
+<text x="462.50" y="140.60" font-size="7.0" fill="#e8edf2" text-anchor="start">Each asset contained</text>
+<text x="462.50" y="149.00" font-size="7.0" fill="#e8edf2" text-anchor="start">in its IfcSpace</text>
+<rect x="455.50" y="156.80" width="3" height="3" fill="#c9d6e2"/>
+<text x="462.50" y="161.40" font-size="7.0" fill="#e8edf2" text-anchor="start">Attributes with their</text>
+<text x="462.50" y="169.80" font-size="7.0" fill="#e8edf2" text-anchor="start">recorded source</text>
+<line x1="455.5" y1="178.20" x2="532.5" y2="178.20" stroke="#6f7f8d" stroke-width="0.6"/>
+<text x="455.50" y="197.20" font-size="7.5" fill="#ffffff" font-weight="bold" text-anchor="start">Audit report</text>
+<text x="455.50" y="206.20" font-size="7.0" fill="#e8edf2" text-anchor="start">disagreements between</text>
+<text x="455.50" y="214.60" font-size="7.0" fill="#e8edf2" text-anchor="start">scan and schedules,</text>
+<text x="455.50" y="223.00" font-size="7.0" fill="#e8edf2" text-anchor="start">reported as a result</text>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTozZmM0ZTMzNC04MTg0LTQ5NGItYjgwMy03ZjE3YzFjODhmZGUAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaI5pHROwWQLla8YbP1aFDLMAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo2ZTc2NjI0NC01Y2IwLTRkZGMtYmFjMC04M2IyODI1YjcwZDNscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoYaiRiOX+M6EC3Ct0e5DnuQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggh3pOnr4qoEriwKQIV6U0lQlVp5LD7XPF55FwPNdDmTGkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaI5D9m1c/Lig0ao3R1D1qcgAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIAdkJwyr1wOjugY4CdHyXSeQMNSosDg4WWMm3agbS9IfZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GTT0Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjNmYzRlMzM0LTgxODQtNDk0Yi1iODAzLTdmMTdjMWM4OGZkZS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjdlOWQyM2YzLTU5ZmUtNGY4ZS04YzZlLTg5MzBjMzRjMWQxYXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCHek6eviqgSuLApAhXpTSVCVWnksPtc8XnkXA810OZMaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg301H1CuXmBZPQrC1rgU1PbBVvTDPP3YsD4c/xf3jlPGiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggAG3Zr20cu6xl5AnzzbS+XvDPX8ak0Rlj1bIf8IXGTCx0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQLE+rc8H+QUE3PnRhMYlcvkKyJlmx7sWMzqZV3yKNcGni2+FpN9+/ljXXJbj6LaSPaUNZZI5e/zsuRKSNO/kc+A=</c2pa:manifest></metadata></svg>
